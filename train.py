@@ -6,8 +6,8 @@ from weight_init import weight_init
 import os
 
 
-train_path = os.path.join(os.getcwd(),"data/smaller_dataset/train")
-test_path = os.path.join(os.getcwd(),"data/smaller_dataset/validation")
+train_path = os.path.join(os.getcwd(),"path to train")
+test_path = os.path.join(os.getcwd(),"path to val")
 
 train_set = NetworkDataset(train_path)
 test_set = NetworkDataset(test_path)
